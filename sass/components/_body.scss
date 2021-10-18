@@ -1,0 +1,54 @@
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+}
+
+.about-me {
+  background-color: $primary-color;
+}
+
+#about-me-link img{
+border-radius: 2%;
+}
+
+.about-header {
+  color:$main-font-color;
+  font-size: 4rem;
+}
+
+.about-h2 {
+  color:$main-font-color;
+  font-weight: 300;
+}
+
+.skills {
+  color:$main-font-color;
+  border-bottom: 1px solid $secondary-color; 
+  display: block;
+  width: 50%;
+  margin: 0px auto;
+}
+
+.my_carousel header a, .my_carousel header a:hover {
+  color:white!important;
+}
+
+.portfolio div {
+  text-align: center;
+}
+
+.portfolio img {
+  padding-bottom: 25px;
+}
+
+
+

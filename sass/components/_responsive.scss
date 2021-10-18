@@ -1,0 +1,96 @@
+/* DESKTOP */
+@media only screen and (min-width: 1280px) {
+    #my_carousel img {
+      width: 1150px;
+      height: 646.875px;
+      display: inline-block;
+    }
+    .my-img img {
+      float: right;
+    }
+    .contact-form {
+      padding: 150px;
+    }
+    html,
+    body{
+      height:100%;
+    }
+}
+
+/*DESKTOP SMALLER*/
+@media only screen and (min-width: 769px) and (max-width:1279px) {
+    #my_carousel img {
+      width:800px;
+      height:450px;
+      display: inline-block;
+    }
+    .contact-form {
+      padding: 150px;
+    }
+    html,
+    body{
+      height:100%;
+    }
+}
+
+/* TABLET */
+@media only screen and (min-width: 426px) and (max-width:768px) {
+  #my_carousel img {
+    width: 600px;
+    height: 337.5px;
+    display: inline-block;
+  }
+  .about-header {
+    font-size: 3rem;
+  }
+  .about-h2 {
+    font-size: 1.7rem;
+  }
+  .fa-mobile-alt {
+    padding-bottom: 32px;
+  }
+  .contact-form {
+    padding: 150px;
+  }
+  html,
+  body{
+    height:100%;
+  }
+}
+
+
+/* MOBILE */
+@media only screen and (max-width: 425px) {
+    #my_carousel img {
+    width: 300px;
+    height: 168.75px;
+    display: inline-block;
+  }
+  .contact-sub {
+    display: none;
+  }
+  #contact-link h1 {
+    border-bottom: 1px solid $secondary-color;
+    font-size: 2rem;
+  }
+  .my-img {
+    height: 300px;
+    padding-bottom: 20px;
+  }
+  .contact-form {
+    padding-bottom: 50px;
+  }
+  .contact-form h1{
+    padding-bottom: 20px;
+  }
+  main h1 {
+    padding-top: 150px;
+  }
+  .hero-text a {
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  .nav {
+    display: none;
+  }
+}

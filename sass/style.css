@@ -1,0 +1,294 @@
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+.about-me {
+  background-color: #181818;
+}
+
+#about-me-link img {
+  border-radius: 2%;
+}
+
+.about-header {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.about-h2 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.skills {
+  color: #fff;
+  border-bottom: 1px solid #e87638;
+  display: block;
+  width: 50%;
+  margin: 0px auto;
+}
+
+.my_carousel header a, .my_carousel header a:hover {
+  color: white !important;
+}
+
+.portfolio div {
+  text-align: center;
+}
+
+.portfolio img {
+  padding-bottom: 25px;
+}
+
+.hero-button {
+  background-color: #e87638;
+  color: #fff;
+}
+
+.hero-button:hover {
+  color: #fff;
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1280px) {
+  #my_carousel img {
+    width: 1150px;
+    height: 646.875px;
+    display: inline-block;
+  }
+  .my-img img {
+    float: right;
+  }
+  .contact-form {
+    padding: 150px;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+}
+
+/*DESKTOP SMALLER*/
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+  #my_carousel img {
+    width: 800px;
+    height: 450px;
+    display: inline-block;
+  }
+  .contact-form {
+    padding: 150px;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+}
+
+/* TABLET */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  #my_carousel img {
+    width: 600px;
+    height: 337.5px;
+    display: inline-block;
+  }
+  .about-header {
+    font-size: 3rem;
+  }
+  .about-h2 {
+    font-size: 1.7rem;
+  }
+  .fa-mobile-alt {
+    padding-bottom: 32px;
+  }
+  .contact-form {
+    padding: 150px;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 425px) {
+  #my_carousel img {
+    width: 300px;
+    height: 168.75px;
+    display: inline-block;
+  }
+  .contact-sub {
+    display: none;
+  }
+  #contact-link h1 {
+    border-bottom: 1px solid #e87638;
+    font-size: 2rem;
+  }
+  .my-img {
+    height: 300px;
+    padding-bottom: 20px;
+  }
+  .contact-form {
+    padding-bottom: 50px;
+  }
+  .contact-form h1 {
+    padding-bottom: 20px;
+  }
+  main h1 {
+    padding-top: 150px;
+  }
+  .hero-text a {
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  .nav {
+    display: none;
+  }
+}
+
+.my_carousel {
+  background-color: #181818;
+  color: #fff;
+  font-size: 3rem;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color: #181818;
+  color: #fff;
+  font-size: 3rem;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.page-footer {
+  background-color: #181818;
+}
+
+.hero-page {
+  height: 100%;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  background-image: url("../imgs/hero-img.jpg");
+}
+
+.btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.hero-text {
+  font-size: 4rem;
+}
+
+.hero-sub-text {
+  font-size: 2rem;
+}
+
+.contact-form {
+  background-image: url("../imgs/hero-img.jpg");
+}
+
+.contact-button {
+  background-color: #e87638;
+  color: #fff;
+}
+
+.contact-sub {
+  border-bottom: 1px solid #e87638;
+}
+
+.my_nav.scrolled {
+  background-color: #181818 !important;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: #e87638;
+}
+
+.drupal, .drupal:hover {
+  color: #009cde;
+}
+
+.home-btn {
+  border-bottom-color: transparent !important;
+}
+/*# sourceMappingURL=style.css.map */

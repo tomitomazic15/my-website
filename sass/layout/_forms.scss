@@ -1,0 +1,12 @@
+.contact-form {
+    background-image: url($hero-image);
+}
+    
+.contact-button {
+    background-color: $secondary-color;
+    color:$main-font-color;
+}
+    
+.contact-sub {
+    border-bottom: 1px solid $secondary-color;
+}
