@@ -267,12 +267,15 @@
   border-bottom: 1px solid #e87638;
 }
 
+<<<<<<< HEAD
 .my_nav.scrolled {
   background-color: #181818 !important;
   -webkit-transition: background-color 200ms linear;
   transition: background-color 200ms linear;
 }
 
+=======
+>>>>>>> 41fb1fb (removed nav)
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
