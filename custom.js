@@ -39,6 +39,7 @@ $(document).scroll(function () {
   const nav = $(".my_nav");
   nav.toggleClass('scrolled', $(this).scrollTop() > nav.height());
 });
+
 // $(document).scroll(function () {
 //   const nav = $(".my_nav");
 //   nav.toggleClass('scrolled', $(this).scrollTop() > nav.height());
