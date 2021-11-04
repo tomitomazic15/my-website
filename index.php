@@ -16,11 +16,8 @@
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
         <div class="inner">
-<<<<<<< HEAD
-          <nav class="nav nav-masthead navbar navbar-expand-lg fixed-top my_nav p-2">
-=======
+          <!-- <nav class="nav nav-masthead navbar navbar-expand-lg fixed-top my_nav p-2"> -->
           <!-- <nav class="nav nav-masthead navbar navbar-expand-lg fixed-top my_nav p-2">
->>>>>>> 41fb1fb (removed nav)
             <a class="nav-link mx-3 home-btn" href="#"><span style="font-size: 1.5em; color: white"><i class="fas fa-home"></i></span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon">
@@ -35,11 +32,8 @@
               <a class="nav-link mx-3 text-white" href="#projects-link">MY RECENT PROJECTS</a>
               <a class="nav-link mx-3 text-white" href="#contact-link">CONTACT</a>
             </div>
-<<<<<<< HEAD
           </nav>
-=======
           </nav> -->
->>>>>>> 41fb1fb (removed nav)
         </div>
       </header>
       <main role="main" class="inner cover">

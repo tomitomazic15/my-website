@@ -34,19 +34,15 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-
 //Sticky nav
-<<<<<<< HEAD
 $(document).scroll(function () {
   const nav = $(".my_nav");
   nav.toggleClass('scrolled', $(this).scrollTop() > nav.height());
 });
-=======
 // $(document).scroll(function () {
 //   const nav = $(".my_nav");
 //   nav.toggleClass('scrolled', $(this).scrollTop() > nav.height());
 // });
->>>>>>> 41fb1fb (removed nav)
 
 // AOS.init({
 //   duration: 1200,
